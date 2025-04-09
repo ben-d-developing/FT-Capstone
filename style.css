@@ -15,10 +15,11 @@ body {
 
 /* ==== Header ==== */
 header {
-  background-color: #333;
+  background-color: black;
   color: #fff;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
+  border-radius: 20px;
 }
 
 /* ==== Main Content ==== */
@@ -32,14 +33,57 @@ main {
 
 /* ==== Buttons ==== */
 button {
-  background-color: #008cba;
+  display: block;
+  width: 100%;
+  font-size: 2rem;
+  background-size: cover;
+  background-color: grey;
+  background-position: center;
   color: white;
+  padding: 100px;
   border: none;
-  padding: 10px 15px;
-  font-size: 1rem;
-  border-radius: 5px;
+  border-radius:25px;
   cursor: pointer;
-  transition: background-color 0.2s;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.button1{ /* = Locations button = */
+  background-image: url("images/alex-varela-KXD5UUick_Q-unsplash.jpg"); /* Photo by alex varela on Unsplash */ Photo by <a href="https://unsplash.com/@tstudio_lv?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">TStudio_lv</a> on <a href="https://unsplash.com/photos/a-man-wearing-a-pair-of-headphones-on-top-of-his-head-xkVNXu_KPGY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 52%;
+}
+
+.button2{ /* = Store button = */
+  background-image: url("images/nubelson-fernandes-yImlavN5V90-unsplash.jpg"); /* Photo by Nubelson Fernandes on Unsplash */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+}
+
+.button3{ /* = Swag button = */
+  background-image: url("images/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+}
+
+.button4{ /* = About button = */
+  background-image: url("images/dushawn-jovic-2V4Qhq55maY-unsplash.jpg"); /* Photo by Dushawn Jovic on Unsplash */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+}
+
+.button5{ /* = Contact button = */
+  background-image: url("images/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+  padding: 10px;
+  background-color: gray;
 }
 
 button:hover {
