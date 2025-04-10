@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #000000;
   color: #333;
   line-height: 1.6;
   padding: 20px;
@@ -15,8 +15,8 @@ body {
 
 /* ==== Header ==== */
 header {
-  background-color: black;
-  color: #fff;
+  background-color: rgb(226, 226, 226);
+  color: #000000;
   padding: 30px;
   text-align: center;
   border-radius: 20px;
@@ -49,8 +49,8 @@ button {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* = Locations button = */
 .button1 {
-  /* = Locations button = */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 52%;
@@ -63,8 +63,7 @@ button {
   background-image: url("images/alex-varela-KXD5UUick_Q-unsplash.jpg"); /* Photo by alex varela on Unsplash */
   background-size: cover;
   background-position: center;
-  filter: blur(1.5px);
-  z-index: 0;
+  filter: blur(1px);
 }
 
 .button1 span {
@@ -89,8 +88,8 @@ button {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* = Store button = */
 .button2 {
-  /* = Store button = */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 40%;
@@ -103,7 +102,7 @@ button {
   background-image: url("images/nubelson-fernandes-yImlavN5V90-unsplash.jpg"); /* Photo by Nubelson Fernandes on Unsplash */
   background-size: cover;
   background-position: center;
-  filter: blur(1.5px);
+  filter: blur(1px);
   z-index: 0;
 }
 
@@ -129,8 +128,8 @@ button {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* = Swag button = */
 .button3 {
-  /* = Swag button = */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 55%;
@@ -143,7 +142,7 @@ button {
   background-image: url("images/jass-akajassd-hernandez-AP3CrWKDKXc-unsplash.jpg"); /* Photo by */
   background-size: cover;
   background-position: center;
-  filter: blur(1.5px);
+  filter: blur(1px);
   z-index: 0;
 }
 
@@ -169,8 +168,8 @@ button {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* = About button = */
 .button4 {
-  /* = About button = */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 40%;
@@ -183,7 +182,7 @@ button {
   background-image: url("images/dushawn-jovic-2V4Qhq55maY-unsplash.jpg"); /* Photo by Dushawn Jovic on Unsplash */
   background-size: cover;
   background-position: center;
-  filter: blur(1.5px);
+  filter: blur(1px);
   z-index: 0;
 }
 
@@ -209,8 +208,8 @@ button {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* = Contact button = */
 .button5 {
-  /* = Contact button = */
   background-image: url("images/");
   background-size: cover;
   background-repeat: no-repeat;
