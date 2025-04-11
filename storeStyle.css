@@ -1,0 +1,82 @@
+/* ==== Buttons ==== */
+button {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+  background-size: cover;
+  background-color: grey;
+  background-position: center;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Base layout: 2 items per row */
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Make each item look nice */
+.store-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive: 1 item per row on small screens */
+@media (max-width: 768px) {
+  .store-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.store-item img {
+  border-radius: 4px;
+  width: 320px;
+  height: 320px;
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+}
+
+.store-item {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Overlay for out-of-stock */
+.image-container.out-of-stock .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98.2%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+/* Out of stock button style */
+button:disabled {
+  background-color: #888;
+  color: #fff;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
