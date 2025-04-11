@@ -211,3 +211,9 @@ button {
 .button5:hover::after {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+button.low-on-stock {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}

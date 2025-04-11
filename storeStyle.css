@@ -37,14 +37,8 @@ button {
   }
 }
 
-.store-item img {
-  border-radius: 4px;
-  width: 320px;
-  height: 320px;
-  object-fit: cover; /* Ensures the image fills the container without distortion */
-}
-
 .store-item {
+  overflow: visible;
   position: relative;
   padding: 10px;
   border: 1px solid #ccc;
@@ -56,27 +50,78 @@ button {
   display: inline-block;
 }
 
-.image-container img {
-  width: 100%;
-  height: auto;
+/* Overlay for out-of-stock */
+button:disabled {
+  background-color: #888;
+  color: #ffffff;
+  cursor: not-allowed;
+  opacity: 0.7;
 }
 
-/* Overlay for out-of-stock */
 .image-container.out-of-stock .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 98.2%;
-  background: rgba(0, 0, 0, 0.5);
+  height: 98%;
+  background: rgb(151, 151, 151);
+  opacity: 0.6; 
+  border-radius: 10px;
   z-index: 1;
-  border-radius: 3px;
+}
+
+.overlay span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* Out of stock button style */
 button:disabled {
   background-color: #888;
-  color: #fff;
+  color: #ffffff;
   cursor: not-allowed;
   opacity: 0.7;
+}
+
+/* Image carousel */
+.carousel {
+  position: relative;
+  text-align: center;
+}
+
+.carousel img {
+  border-radius: 10px;
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.3em 0.6em;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+  width: 50px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+  width: 50px;
 }
