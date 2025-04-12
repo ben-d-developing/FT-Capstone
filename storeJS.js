@@ -4,7 +4,34 @@ const items = [
     price: "$89.00",
     image: [
       "images/headphones-1720164_1280.jpg" /* Image by kinkates from Pixabay */,
-      "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */
+      "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */,
+    ],
+    quantity: 10,
+  },
+  {
+    name: "AKG K240 headphones",
+    price: "$89.00",
+    image: [
+      "images/headphones-1720164_1280.jpg" /* Image by kinkates from Pixabay */,
+      "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */,
+    ],
+    quantity: 10,
+  },
+  {
+    name: "AKG K240 headphones",
+    price: "$89.00",
+    image: [
+      "images/headphones-1720164_1280.jpg" /* Image by kinkates from Pixabay */,
+      "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */,
+    ],
+    quantity: 10,
+  },
+  {
+    name: "AKG K240 headphones",
+    price: "$89.00",
+    image: [
+      "images/headphones-1720164_1280.jpg" /* Image by kinkates from Pixabay */,
+      "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */,
     ],
     quantity: 10,
   },
@@ -14,7 +41,7 @@ const items = [
     image: [
       "images/dmitry-kropachev-d-gdVqLQX2s-unsplash.jpg" /* Photo by Dmitry Kropachev on Unsplash */,
       "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */,
-      "images/maria-chetvernina-Ehujs3PRbMg-unsplash.jpg" /* Photo by Maria Chetvernina on Unsplash */
+      "images/maria-chetvernina-Ehujs3PRbMg-unsplash.jpg" /* Photo by Maria Chetvernina on Unsplash */,
     ],
     quantity: 2,
   },
@@ -23,7 +50,7 @@ const items = [
     price: "$399.95",
     image: [
       "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */,
-      "images/hd600.jpg"
+      "images/hd600.jpg",
     ],
     quantity: 0,
   },
@@ -36,11 +63,12 @@ items.forEach((item, index) => {
   itemDiv.className = "store-item";
 
   const outOfStock = item.quantity === 0 ? "out-of-stock" : "";
-  const lowOnStock = item.quantity <= 5 && item.quantity > 0 ? "low-on-stock" : "";
+  const lowOnStock =
+    item.quantity <= 5 && item.quantity > 0 ? "low-on-stock" : "";
 
   const carouselId = `carousel-${index}`;
 
-itemDiv.innerHTML = `
+  itemDiv.innerHTML = `
   <div class="carousel image-container ${outOfStock}">
     <img id="${carouselId}" src="${item.image[0]}" alt="${item.name}" />
     <button class="carousel-btn prev">&larr;</button>
@@ -53,10 +81,10 @@ itemDiv.innerHTML = `
   <button class="${lowOnStock}" ${item.quantity === 0 ? "disabled" : ""}>
     ${
       item.quantity === 0
-      ? "Out of Stock"
-      : item.quantity <= 5
-      ? "Low on Stock"
-      : "Add to Cart"
+        ? "Out of Stock"
+        : item.quantity <= 5
+        ? "Low on Stock"
+        : "Add to Cart"
     }
   </button>
 `;
@@ -75,7 +103,8 @@ itemDiv.innerHTML = `
   });
 
   prevBtn.addEventListener("click", () => {
-    currentImageIndex = (currentImageIndex - 1 + item.image.length) % item.image.length;
+    currentImageIndex =
+      (currentImageIndex - 1 + item.image.length) % item.image.length;
     imgEl.src = item.image[currentImageIndex];
   });
 });
