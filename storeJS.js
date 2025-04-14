@@ -49,8 +49,8 @@ const items = [
     name: "Sennheiser HD 600",
     price: "$399.95",
     image: [
-      "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */,
       "images/hd600.jpg",
+      "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg" /* oleg-ivanov-qrKci8K0oRY-unsplash */,
     ],
     quantity: 0,
   },
