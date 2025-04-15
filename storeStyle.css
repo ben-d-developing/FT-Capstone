@@ -1,3 +1,18 @@
+/* ==== Home button ==== */
+.home-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.home-button button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
 /* ==== Buttons ==== */
 button {
   position: relative;
