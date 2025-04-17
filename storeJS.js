@@ -49,7 +49,6 @@ function populateFilters(items) {
 
 function renderItems(filteredItems) {
   container.innerHTML = ""; // Clear first
-  filteredItems.forEach((item, index) => {
     filteredItems.forEach((item, index) => {
       const itemDiv = document.createElement("div");
       itemDiv.className = "store-item";
@@ -81,8 +80,8 @@ function renderItems(filteredItems) {
       </button>
     `;
     
-      container.appendChild(itemDiv);
-    
+    container.appendChild(itemDiv);
+     
       let currentImageIndex = 0;
       const imgEl = itemDiv.querySelector(`#${carouselId}`);
       const nextBtn = itemDiv.querySelector(".next");
@@ -99,8 +98,6 @@ function renderItems(filteredItems) {
         imgEl.src = item.image[currentImageIndex];
       });
     });
-    
-  });
 }
 
 function filterItems() {
