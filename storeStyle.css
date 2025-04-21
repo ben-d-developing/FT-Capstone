@@ -7,33 +7,10 @@
   text-decoration: none;
   padding: 10px 10px;
 }
-.home-button button {
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  border-radius: 10px;
-}
 
 .low-on-stock {
   color: black;
   font-weight: bold;
-}
-
-/* ==== Buttons ==== */
-button {
-  position: relative;
-  display: block;
-  width: 100%;
-  font-size: 1.2em;
-  background-size: cover;
-  background-color: grey;
-  background-position: center;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  margin-bottom: 30px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 /* Base layout: 2 items per row */

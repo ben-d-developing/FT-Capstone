@@ -10,6 +10,12 @@ a {
   color: inherit;
 }
 
+.home-button button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dfdbd5;

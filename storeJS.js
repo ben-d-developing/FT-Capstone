@@ -18,6 +18,7 @@ const items = [
     image: [
       "images/dmitry-kropachev-d-gdVqLQX2s-unsplash.jpg",
       "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg",
+      "images/headphones-1720164_1280.jpg",
     ],
     quantity: 2,
   },
