@@ -31,6 +31,8 @@ const items = [
   },
 ];
 
+const container = document.getElementById("store-container");
+
 const brandFilter = document.getElementById("brandFilter");
 const typeFilter = document.getElementById("typeFilter");
 
@@ -124,56 +126,3 @@ renderItems(items);
 
 brandFilter.addEventListener("change", filterItems);
 typeFilter.addEventListener("change", filterItems);
-
-const container = document.getElementById("store-container");
-
-// items.forEach((item, index) => {
-//   const itemDiv = document.createElement("div");
-//   itemDiv.className = "store-item";
-
-//   const outOfStock = item.quantity === 0 ? "out-of-stock" : "";
-//   const lowOnStock =
-//     item.quantity <= 5 && item.quantity > 0 ? "low-on-stock" : "";
-
-//   const carouselId = `carousel-${index}`;
-
-//   itemDiv.innerHTML = `
-//   <div class="carousel image-container ${outOfStock}">
-//     <img id="${carouselId}" src="${item.image[0]}" alt="${item.name}" />
-//     <button class="carousel-btn prev">&larr;</button>
-//     <button class="carousel-btn next">&rarr;</button>
-//     ${item.quantity === 0 ? '<div class="overlay"></div>' : ""}
-//   </div>
-//   <h3>${item.name}</h3>
-//   <p>${item.price}</p>
-//   <p>In stock: ${item.quantity}</p>
-//   <button class="${lowOnStock}" ${item.quantity === 0 ? "disabled" : ""}>
-//     ${
-//       item.quantity === 0
-//         ? "Out of Stock"
-//         : item.quantity <= 5
-//         ? "Low on Stock"
-//         : "Add to Cart"
-//     }
-//   </button>
-// `;
-
-//   container.appendChild(itemDiv);
-
-//   // this block must be scoped for each item
-//   let currentImageIndex = 0;
-//   const imgEl = itemDiv.querySelector(`#${carouselId}`);
-//   const nextBtn = itemDiv.querySelector(".next");
-//   const prevBtn = itemDiv.querySelector(".prev");
-
-//   nextBtn.addEventListener("click", () => {
-//     currentImageIndex = (currentImageIndex + 1) % item.image.length;
-//     imgEl.src = item.image[currentImageIndex];
-//   });
-
-//   prevBtn.addEventListener("click", () => {
-//     currentImageIndex =
-//       (currentImageIndex - 1 + item.image.length) % item.image.length;
-//     imgEl.src = item.image[currentImageIndex];
-//   });
-// });
