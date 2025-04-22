@@ -3,7 +3,7 @@
 
 This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
 
-*Work in development*
+
 # It features:
 ‹ An Online Store, which features:
   « Interactive image carousels for each item
@@ -19,14 +19,15 @@ This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
   « A home button feature to return to the main page.
 
 ‹ A Locations page, which features:
-  « An interactive Google maps insert to show "store locations" *(Work in development)*
+  « An interactive Google maps insert to show "store locations" *(Work in progress)*
   « A home button feature to return to the main page.
+  « *(Work in progress)*
 
 ‹ An About page, which features:
-  « *(Work in development)*
+  « *(Work in progress)*
 
 ‹ A Contact page, which features:
-  « *(Work in development)*
+  « *(Work in progress)*
 
 
 ***This is not in any way meant to be a template or used with, or without my consent.*** 
