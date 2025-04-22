@@ -1,5 +1,5 @@
 # FT-Capstone
-<h1>A website about a fictional audiophile store named The Echo Chamber, which allows guests to test a diverse array of headphones through proper audio equipment.</h1>
+<h3>A website about a fictional audiophile store named The Echo Chamber, which allows guests to test a diverse array of headphones through proper audio equipment.</h3>
 
 This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
 
