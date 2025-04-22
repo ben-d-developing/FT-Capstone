@@ -1,35 +1,58 @@
 const items = [
   {
-    name: "AKG K240 headphones",
-    brand: "AKG",
-    type: "semi open back",
-    price: "$89.00",
+    name: "AKG K240", //Headphone model
+    brand: "AKG", //Brand name
+    type: "semi open back", //Headphone type ("closed back" "open back" "semi open back") verbatim
+    price: "$89.00", //Price of item
     image: [
       "images/headphones-1720164_1280.jpg",
-      "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg",
-    ],
-    quantity: 10,
+      "images/71bNODflmBL._AC_SL1500_.jpg",
+      "images/71okySiZwlL._AC_SL1500_.jpg",
+    ], //Files to images formatted: "images/image.jpg",
+    //Files must be in: "FT-Capstone > images"
+    quantity: 10, // Quantity in stock
   },
   {
-    name: "Marshall Major IV",
-    brand: "Marshall",
-    type: "closed back",
-    price: "$69.99",
+    name: "Marshall Major IV", //Headphone model
+    brand: "Marshall", //Brand name
+    type: "closed back", //Headphone type ("closed back" "open back" "semi open back") verbatim
+    price: "$69.99", //Price of item
     image: [
       "images/dmitry-kropachev-d-gdVqLQX2s-unsplash.jpg",
       "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg",
-      "images/headphones-1720164_1280.jpg",
-    ],
-    quantity: 2,
+      "images/maria-chetvernina-Ehujs3PRbMg-unsplash.jpg",
+    ], //Files to images formatted: "images/image.jpg",
+    //Files must be in: "FT-Capstone > images"
+    quantity: 2, // Quantity in stock
   },
   {
-    name: "Sennheiser HD 600",
-    brand: "Sennheiser",
-    type: "open back",
-    price: "$399.95",
-    image: ["images/hd600.jpg", "images/oleg-ivanov-qrKci8K0oRY-unsplash.jpg"],
-    quantity: 0,
+    name: "Sennheiser HD 600", //Headphone model
+    brand: "Sennheiser", //Brand name
+    type: "open back", //Headphone type ("closed back" "open back" "semi open back") verbatim
+    price: "$399.95", //Price of item
+    image: [
+      "images/SennheiserHD6001024x1024.jpg",
+      "images/SennheiserHD60011024x1024.jpg",
+      "images/SennheiserHD6001024x1024_04ba76c8-0cf1-460c-a82f-fc7fa7e41acd.jpg",
+      "images/hd600.jpg",
+    ], //Files to images formatted: "images/image.jpg",
+    //Files must be in: "FT-Capstone > images"
+    quantity: 3, // Quantity in stock
   },
+  // {
+  //   name: "model of headphone here", //Headphone model
+  //   brand: "brand name here", //Brand name
+  //   type: "type (open back, closed back, or semi open back) here", //Headphone type ("closed back" "open back" "semi open back") verbatim
+  //   price: "$price here", //Price of item
+  //   image: [
+  //     "images/SennheiserHD6001024x1024.jpg",
+  //     "images/SennheiserHD60011024x1024.jpg",
+  //     "images/SennheiserHD6001024x1024_04ba76c8-0cf1-460c-a82f-fc7fa7e41acd.jpg",
+  //     "images/hd600.jpg",
+  //   ], //Files to images formatted: "images/image.jpg",
+  //   //Files must be in: "FT-Capstone > images"
+  //   quantity: 0, // Quantity in stock
+  // },
 ];
 
 const container = document.getElementById("store-container");
