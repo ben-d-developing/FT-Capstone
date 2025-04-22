@@ -5,7 +5,7 @@ This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
 
 
 # It features:
-‹ An Online Store, which features:
+<h4>‹ An Online Store, which features:</h4>
 « Interactive image carousels for each item
 « `Brand` and `Type` filter
 « Adaptive code, for example: When a new product is added in the JS, it will add the item to the store page and add the `Brand` and the `Type` to the filter options.
