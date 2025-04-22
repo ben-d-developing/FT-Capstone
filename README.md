@@ -6,6 +6,7 @@ This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
 
 # It features:
 <h4>‹ An Online Store, which features:</h4>
+
 - Interactive image carousels for each item
   
 - `Brand` and `Type` filter
@@ -18,6 +19,7 @@ This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
   
   
 <h4>‹ A Swag Online Store, which features:</h4>
+
 - Interactive image carousels for each item
   
 - Adaptive code
@@ -28,6 +30,7 @@ This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
   
 
 <h4>‹ A Locations page, which features:</h4>
+
 - An interactive Google maps insert to show "store locations" *(Work in progress)*
   
 - A home button feature to return to the main page.
@@ -35,9 +38,11 @@ This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
 - *(Work in progress)*
 
 <h4>‹ An About page, which features:</h4>
+
 - *(Work in progress)*
 
 <h4>‹ A Contact page, which features:</h4>
+
 - *(Work in progress)*
 
 
