@@ -11,11 +11,13 @@ This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
   
 - `Brand` and `Type` filter
   
-- Adaptive code, for example: When a new product is added in the JS, it will add the item to the store page and add the `Brand` and the `Type` to the filter options.
+- Adaptive code, for example: When a new product is added in the JS, it will add the item to the store page and add the `Brand` and the `Type` to the filter options
   
-- Adaptive purchase buttons depending on item stock.  (Will display `Add to Cart` if `item.quantity` more than `5`, `Low on Stock` if `item.quantity` is less than or equal to `5` and greater than `0`, and `Out of Stock` if `item.quantity` is equal to `0`)
+- Adaptive purchase buttons depending on item stock  (Will display `Add to Cart` if `item.quantity` more than `5`, `Low on Stock` if `item.quantity` is less than or equal to `5` and greater than `0`, and `Out of Stock` if `item.quantity` is equal to `0`)
   
-- A home button feature to return to the main page.
+- A home button feature to return to the main page
+
+- More features to come
   
   
 <h4>‹ A Swag Online Store, which features:</h4>
@@ -24,16 +26,21 @@ This portfolio mock web store was built using `HTML`, `JS` and `CSS Grid`.
   
 - Adaptive code
   
-- Adaptive purchase buttons depending on item stock.
+- Adaptive purchase buttons depending on item stock
   
-- A home button feature to return to the main page.
+- A home button feature to return to the main page
+
+- More features to come
   
 
 <h4>‹ A Locations page, which features:</h4>
 
 - An interactive Google maps insert to show "store locations" *(Work in progress)*
   
-- A home button feature to return to the main page.
+- A home button feature to return to the main page
+
+- More features to come
+  
   
 - *(Work in progress)*
 
