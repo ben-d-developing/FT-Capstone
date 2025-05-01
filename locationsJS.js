@@ -24,4 +24,14 @@ function initMap() {
         infoWindow.open(map, marker);
       });
     });
+  };
+
+  function loadMapScript() {
+    const script = document.createElement("script");
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.GOOGLE_MAPS_API_KEY}&callback=initMap`;
+    script.async = true;
+    document.head.appendChild(script);
   }
+  
+  window.onload = loadMapScript;
+  

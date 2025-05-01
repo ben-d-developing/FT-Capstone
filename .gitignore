@@ -35,3 +35,13 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore local config with API keys
+config.js
+
+# Ignore system/IDE files
+.DS_Store
+.vscode/
+
+# Ignore log files
+*.log
