@@ -23,7 +23,7 @@ const items = [
       "images/maria-chetvernina-Ehujs3PRbMg-unsplash.jpg",
     ], //Files to images formatted: "images/image.jpg",
     //Files must be in: "FT-Capstone > images"
-    quantity: 2, // Quantity in stock
+    quantity:0, // Quantity in stock
   },
   {
     name: "Sennheiser HD 600", //Headphone model
