@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Website title -->
+    <title>Welcome to The Echo Chamber</title>
+
+    <!-- Link to storeJS.js script file -->
+    <script src="storeJS.js" defer></script>
+
+    <!-- Link to style.css and storeStyle.css file -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="storeStyle.css" />
+
+  </head>
+  <body>
+    <a href="mainHTML.html" class="home-button" id="homeButton">
+      <button><span>Home</span></button>
+    </a>
+    <header>
+      <h1>Store</h1>
+    </header>
+
+    <main>
+      <div id="filters">
+        <label for="brandFilter">Brand:</label>
+        <select id="brandFilter">
+          <option value="all">All</option>
+        </select>
+
+        <label for="typeFilter">Type:</label>
+        <select id="typeFilter">
+          <option value="all">All</option>
+        </select>
+      </div>
+      <div id="store-container" class="store-grid"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Ben D</p>
+      <a href="https://github.com/GamerGrubb">github.com/GamerGrubb</a>
+    </footer>
+  </body>
+</html>

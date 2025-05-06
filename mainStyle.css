@@ -1,0 +1,242 @@
+button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.25rem;
+  background-size: cover;
+  background-color: grey;
+  background-position: center;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .button-row button {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* = Locations button = */
+.button1 {
+  padding: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 52%;
+}
+
+.button1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("images/alex-varela-KXD5UUick_Q-unsplash.jpg"); /* Photo by alex varela on Unsplash */
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+}
+
+.button1 span {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.button1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  z-index: 0;
+}
+
+.button1:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* = Store button = */
+.button2 {
+  padding: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+}
+
+.button2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("images/nubelson-fernandes-yImlavN5V90-unsplash.jpg"); /* Photo by Nubelson Fernandes on Unsplash */
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  z-index: 0;
+}
+
+.button2 span {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.button2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  z-index: 0;
+}
+
+.button2:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* = Swag button = */
+.button3 {
+  padding: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 55%;
+}
+
+.button3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("images/jass-akajassd-hernandez-AP3CrWKDKXc-unsplash.jpg"); /* Photo by */
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  z-index: 0;
+}
+
+.button3 span {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.button3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  z-index: 0;
+}
+
+.button3:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* = About button = */
+.button4 {
+  padding: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+}
+
+.button4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("images/dushawn-jovic-2V4Qhq55maY-unsplash.jpg"); /* Photo by Dushawn Jovic on Unsplash */
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  z-index: 0;
+}
+
+.button4 span {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.button4::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  z-index: 0;
+}
+
+.button4:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* = Contact button = */
+.button5 {
+  background-image: url("images/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+  height: 30px;
+  font-size: large;
+  background-color: grey;
+}
+
+.button5::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+}
+
+.button5 span {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.button5::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  z-index: 0;
+}
+
+.button5:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+button.low-on-stock {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
